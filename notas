@@ -1,0 +1,8 @@
+mi backend debe: 
+
+1. recibir "post" para generar un nuevo 'rate'
+    en el body debe indicarse el par, y una fee agregada
+
+2. un get many de todos los fees existentes
+
+3. un delete fee

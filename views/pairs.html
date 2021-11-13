@@ -1,0 +1,9 @@
+<h1>Pairs</h1>
+<form method="POST" action="/pairs">
+<input type="text" placeholder="Add pair..." name="text">
+</form>
+<ul>
+  {{#each pairs}}
+  <li>{{text}}</li>
+  {{/each}}
+</ul>
